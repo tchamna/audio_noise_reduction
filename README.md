@@ -9,15 +9,6 @@ This is a Streamlit-based application for reducing noise in MP3 audio files. It 
 - Automatically process all MP3 files in the folder.
 - Save the denoised files in a new folder.
 
-## Requirements
-
-- Python 3.7 or higher
-- The following Python packages:
-  - `streamlit`
-  - `pydub`
-  - `noisereduce`
-  - `numpy`
-  - `natsort`
 
 ## Installation
 
@@ -46,7 +37,7 @@ This is a Streamlit-based application for reducing noise in MP3 audio files. It 
 1. **Run the Streamlit application:**
 
     ```bash
-    streamlit run noise_reduction_app.py
+    streamlit run audio_noise_removal_streamlit.py
     ```
 
 2. **In the Streamlit web interface:**
@@ -61,19 +52,6 @@ This is a Streamlit-based application for reducing noise in MP3 audio files. It 
     - Apply noise reduction to each file.
     - Save the denoised files in a new subfolder named `denoised_<proportion>` within the original folder.
 
-## Example
-
-1. **Select the folder containing MP3 files:**
-
-    ![Select Folder](images/select_folder.png)
-
-2. **Set the noise reduction proportion:**
-
-    ![Set Proportion](images/set_proportion.png)
-
-3. **Start the noise reduction process:**
-
-    ![Start Process](images/start_process.png)
 
 4. **View the completion message:**
 
