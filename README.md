@@ -53,10 +53,6 @@ This is a Streamlit-based application for reducing noise in MP3 audio files. It 
     - Save the denoised files in a new subfolder named `denoised_<proportion>` within the original folder.
 
 
-4. **View the completion message:**
-
-    ![Completion Message](images/completion_message.png)
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
